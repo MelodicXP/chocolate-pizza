@@ -1,0 +1,197 @@
+body {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+nav {
+  /* border: 3px solid red; */
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#logo {
+  height: auto;
+}
+.columnDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.7vw;
+  margin-left: 5px;
+}
+
+#p-header {
+  font-size: .75vw;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 5px;
+  color: gray;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  /* border: 2px solid green; */
+}
+
+#icons img {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.image-row {
+ 
+  background-image: url('/img/hr-img.png');
+  background-repeat: repeat-x, repeat-x; /* repeat horizontally */
+  height: 3.5px; /* adjust height as needed */
+}
+
+#date-print-container {
+  display: flex;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5vw;
+  margin-top: 50px;
+}
+
+#date-posted {
+  font-size: .75vw;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 5px;
+  color: gray;
+}
+
+#date-print-container img {
+  margin-left: auto;
+  margin-right: 2px;
+  height:auto;
+}
+
+#print-text-container{
+  display: flex;
+  align-items: end;
+}
+
+#print {
+  font-size: .75vw;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: gray;
+}
+
+#choco-pizza {
+  margin-top: 25px;
+  width: 100%;
+}
+
+#recipe-container {
+  /* border: 2px solid green; */
+  margin-bottom: 25px;
+}
+
+#recipe-container p{
+ /* border: 2px solid pink; */
+ font-size: 1.45vw;
+ margin-top: 25px;
+ text-indent: 2em;
+ color: gray;
+}
+
+.checkbox-container {
+  /* border: 3px solid green; */
+  background-image: url('/img/list-bg.png');
+  background-size: 100% 100%;
+  padding: 50px;
+  padding-top: 20px;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 25px;
+}
+
+.checkbox-list {
+  /* border: 3px solid red; */
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.checkbox-list li {
+  font-size: 1.1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkslategray;
+  
+}
+
+/* ':checked' targets the checked checkboxes, and the '+' selects the label element immediately following the checkbox.*/
+.checkbox-list li input[type="checkbox"]:checked + label {
+  margin-right: 10px;
+  text-decoration: line-through; /*create strikethrough effect when checkbox is checked */
+}
+
+#author-container {
+  display: flex;
+  margin-top: 25px;
+}
+
+#author-container button {
+  margin-left: auto;
+  background-color: #c96f08;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 40px;
+  border: none;
+}
+
+#author-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  width: 475px;
+  /* border: 3px solid red; */
+}
+
+#author-info h2 {
+  font-size: 1.2vw;
+  font-family: none;
+  color: darkslategray;
+  /* border: 3px solid pink; */
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#author-info p {
+  font-family: none;
+  font-size: 1vw;
+  color: gray;
+  margin-bottom: 0px;
+  /* border: 3px solid purple; */
+}
+
+#small-logo {
+  display: block; 
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 25px;
+  /* border: 3px solid green; */
+}
+
+footer {
+  display:flex;
+  flex-direction: column;
+}
+
+footer p {
+  font-size: .75vw;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: auto;
+  color: gray;
+}
