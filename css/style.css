@@ -1,29 +1,19 @@
 body {
-  margin-left: 15vw;
-  margin-right: 15vw;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+  margin: 2vw 15vw;
 }
 
 nav {
-  /* border: 3px solid red; */
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 1vw;
 }
 
-#logo {
+nav img {
   height: auto;
-}
-.columnDisplay {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 h1 {
   font-family: 'Yellowtail', cursive;
   font-size: 2.7vw;
-  margin-left: 5px;
 }
 
 #p-header {
@@ -33,27 +23,17 @@ h1 {
   color: gray;
 }
 
-.icon-container {
-  display: flex;
+#icon-container {
+  display: flex; 
+  gap: 0.25vw; 
   align-items: center;
   margin-left: auto;
-  /* border: 2px solid green; */
-}
-
-#icons img {
-  margin-right: 0px;
-  margin-left: 0px;
 }
 
 .image-row {
- 
   background-image: url('/img/hr-img.png');
   background-repeat: repeat-x, repeat-x; /* repeat horizontally */
-  height: 3.5px; /* adjust height as needed */
-}
-
-#date-print-container {
-  display: flex;
+  height: .20vw; /* adjust height as needed */
 }
 
 h2 {
@@ -63,10 +43,14 @@ h2 {
   margin-top: 50px;
 }
 
+#date-print-container {
+  display: flex;
+}
+
 #date-posted {
   font-size: .75vw;
   font-family: 'Roboto Condensed', sans-serif;
-  margin-top: 5px;
+  margin-top: .5vw;
   color: gray;
 }
 
@@ -94,7 +78,7 @@ h2 {
 
 #recipe-container {
   /* border: 2px solid green; */
-  margin-bottom: 25px;
+  margin-bottom: 2vw;
 }
 
 #recipe-container p{
@@ -109,35 +93,35 @@ h2 {
   /* border: 3px solid green; */
   background-image: url('/img/list-bg.png');
   background-size: 100% 100%;
-  padding: 50px;
-  padding-top: 20px;
+  padding: 2vw 0;
   display: flex;
-  justify-content:space-between;
-  margin-bottom: 25px;
+  justify-content:space-around;
+  margin-bottom: 2vw;
 }
 
 .checkbox-list {
   /* border: 3px solid red; */
   list-style-type: none;
-  padding-left: 10px;
 }
 
 .checkbox-list li {
   font-size: 1.1vw;
   font-family: Arial, Helvetica, sans-serif;
   color: darkslategray;
-  
+}
+
+.checkbox-list li input {
+  margin-right: 0.5vw;
 }
 
 /* ':checked' targets the checked checkboxes, and the '+' selects the label element immediately following the checkbox.*/
 .checkbox-list li input[type="checkbox"]:checked + label {
-  margin-right: 10px;
   text-decoration: line-through; /*create strikethrough effect when checkbox is checked */
 }
 
 #author-container {
   display: flex;
-  margin-top: 25px;
+  margin-top: 2vw;
 }
 
 #author-container button {
@@ -145,17 +129,16 @@ h2 {
   background-color: #c96f08;
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
-  padding-left: 40px;
-  padding-right: 40px;
-  height: 40px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  height: 2vw;
   border: none;
 }
 
 #author-info {
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
-  width: 475px;
+  margin-left: 2vw;
   /* border: 3px solid red; */
 }
 
@@ -179,8 +162,8 @@ h2 {
 #small-logo {
   display: block; 
   margin: auto;
-  margin-top: 75px;
-  margin-bottom: 25px;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   /* border: 3px solid green; */
 }
 
